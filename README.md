@@ -10,11 +10,11 @@ class.
 
 Example usages:
 
-Extracts single xml file from given input path. Writes extracted texts to text file.
+Extracts single xml file from given input path. Writes extracted texts to text file:
 java Pick_TextFromXml -i 
 "Z:\\nlf_ocrdump_v0-21_newspapers_1771-1870fin\\1771-1870\\fin\\1775\\1457-4683_1775-09-01_0_001.xml"
 
-Extracts single xml file from given inputPath. Writes extracted texts to console.
+Extracts single xml file from given inputPath. Writes extracted texts to console:
 java Pick_TextFromXml -o "stdout" -i 
 "Z:\\nlf_ocrdump_v0-21_newspapers_1771-1870fin\\1771-1870\\fin\\1775\\1457-4683_1775-09-01_0_001.xml"
 
